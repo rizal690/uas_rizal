@@ -9,14 +9,15 @@ function HomePage() {
         <div>
             <Jumbotron>
                 <Container>
-                    <h1 className="display-3">Hello, {state.user}!</h1>
+                    <h1 className="display-3">Selamat Anda Telah Login!, {state.user}!</h1>
                     <p className="lead">
                     <h2>Pilih Halaman</h2>
                 </p>
                 
                 <Link to="/about"><Button color="primary">About</Button>{' '}</Link>
                 <Link to="/supplier"><Button color="primary">Supplier</Button>{' '}</Link>
-                <Link to="/barang"><Button color="primary">Barang</Button></Link>
+                <Link to="/barang"><Button color="primary">Barang</Button>{' '}</Link>
+                <Link to="/produk"><Button color="primary">Jasa</Button></Link>
                 </Container>
 
 

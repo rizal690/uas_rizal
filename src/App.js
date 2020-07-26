@@ -1,4 +1,4 @@
-import React, { useReducer, createContext } from 'react';
+import React, { useReducer, useState, createContext } from 'react';
 
 import LoginComp from './Component/Fungsional/LoginComp';
 
@@ -19,6 +19,8 @@ import RegisterComp from './Component/Fungsional/RegisterComp';
 import ListBarangComp from './Component/Class/ListBarangComp';
 import TambahBarangComp from './Component/Class/TambahBarangComp';
 import EditBarangComp from './Component/Class/EditBarangComp';
+import ProductComp from './Component/Fungsional/ProductComp';
+// import RowProduct from './Component/Fungsional/RowProduct';
 
 
 // context
@@ -54,6 +56,7 @@ const reducer = (state, action) => {
   }
 }
 
+
 const App = (props) => {
   const [state, dispatch] = useReducer(reducer, initialState)
   return (
@@ -87,6 +90,8 @@ const App = (props) => {
           <Route exact path="/barang/tambahbarang" component={TambahBarangComp} />
           <Route exact path="/supplier/edit" component={EditComp} />
           <Route exact path="/barang/editbarang" component={EditBarangComp} />
+          <Route exact path="/produk" component={ProductComp} />
+          
           {/* <Route exact path="/detail/:id" component={DetailComp} /> */}
         </AuthContext.Provider>
       </Switch>

@@ -7,9 +7,12 @@ function AboutComp() {
     return (
         <div>
             <Jumbotron>
-                <h1 className="display-3">Anjay Store</h1>
-                <p className="lead">Anjay Store Merupakan Online Shop yang Mempermudahkan kalangan masyarakat yang mempunyai kesibukan dan kegiatan yang banyak sehingga memudahkan mereka dalam berbelanja.
-                Anjay Store Terletak di Cilacap jawa tengah yang pertama kali di buka pada tahun 2008</p>
+                <h1 className="display-3">Selamat Datang di OLSHOP Anjay Store</h1>
+                <p className="lead">Alamat   : Jln.Brantas No.69 Kroya Cilacap Jawa Tengah </p>
+                <p className="lead">No Telp  : +62826996915 </p>
+                <p className="lead">Anjay Store Adalah Online Shop yang Mempermudahkan kalangan masyarakat yang mempunyai kesibukan dan kegiatan yang banyak sehingga memudahkan mereka dalam berbelanja.
+                </p>
+                
                 <hr className="my-2" />
                 <p className="lead">
 
